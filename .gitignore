@@ -1,0 +1,4 @@
+*.nzb
+.venv
+*.json
+!sample.json
