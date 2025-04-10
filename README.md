@@ -41,7 +41,7 @@ The configuration JSON file should have the following structure (see [`sample.js
 
 To run the server:
 ```bash
-python newznab_mock_server.py --api-key your_api_key --nzb-path /path/to/nzbs --json-file metadata.json
+python newznab_mock.py --api-key your_api_key --nzb-path /path/to/nzbs --json-file metadata.json
 ```
 
 Example requests:
