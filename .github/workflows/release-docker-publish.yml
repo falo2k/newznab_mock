@@ -33,12 +33,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Tag latest
-        uses: silverlyra/latest-image-action@v0.1.0
-        with:
-          repository: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-          candidate-tag: ${{ github.ref_name }}
-
       # Set up BuildKit Docker container builder to be able to build
       # multi-platform images and export cache
       # https://github.com/docker/setup-buildx-action
