@@ -1,0 +1,16 @@
+[
+    {
+      "filename": "example1.nzb",
+      "title": "Example NZB 1",
+      "size": 12345678,
+      "group": "alt.binaries.example",
+      "categories": ["5000", "5030"]
+    },
+    {
+      "filename": "example2.nzb",
+      "title": "Example NZB 2",
+      "size": 87654321,
+      "group": "alt.binaries.test",
+      "categories": "5040"
+    }
+  ]
